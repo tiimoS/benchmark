@@ -1,0 +1,186 @@
+[IccTA]/Users/timospring/Desktop/droid-Security-Thesis/benchmarking/../apk_sample/validation_apk/SendSMS.apk, /Users/timospring/Desktop/droid-Security-Thesis/benchmarking/lib/android-27/android.jar
+[IccTA]ICC Provider is ic3
+add ipc methods!
+add <android.content.Context: void startActivityForResult(android.content.Intent,int)>
+add <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String,android.os.CancellationSignal)>
+add <android.content.Context: void startActivityIfNeeded(android.content.Intent,int)>
+add <android.content.Context: void startActivity(android.content.Intent,android.os.Bundle)>
+add <android.content.Context: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int)>
+add <android.content.Context: void startActivityFromChild(android.app.Activity,android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendStickyBroadcastAsUser(android.content.Intent,android.os.UserHandle)>
+add <android.content.Context: void sendOrderedBroadcast(android.content.Intent,java.lang.String)>
+add <android.content.Context: void sendBroadcast(android.content.Intent,java.lang.String)>
+add <android.content.Context: android.content.ComponentName startService(android.content.Intent)>
+add <android.content.Context: void sendBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String)>
+add <android.content.Context: void startActivity(android.content.Intent)>
+add <android.content.Context: void startActivities(android.content.Intent[],android.os.Bundle)>
+add <android.content.Context: void sendBroadcastAsUser(android.content.Intent,android.os.UserHandle)>
+add <android.content.ContentResolver: int update(android.net.Uri,android.content.ContentValues,java.lang.String,java.lang.String[])>
+add <android.content.Context: boolean bindService(android.content.Intent,android.content.ServiceConnection,int)>
+add <android.content.Context: void sendStickyOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.ContentResolver: android.net.Uri insert(android.net.Uri,android.content.ContentValues)>
+add <android.content.Context: void startActivityIfNeeded(android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void startActivityFromChild(android.app.Activity,android.content.Intent,int)>
+add <android.content.Context: void startActivityForResult(android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendStickyOrderedBroadcast(android.content.Intent,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.Context: void startActivities(android.content.Intent[])>
+add <android.content.Context: void startActivityFromFragment(android.app.Fragment,android.content.Intent,int,android.os.Bundle)>
+add <android.content.Context: void sendOrderedBroadcast(android.content.Intent,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.Context: void sendOrderedBroadcastAsUser(android.content.Intent,android.os.UserHandle,java.lang.String,android.content.BroadcastReceiver,android.os.Handler,int,java.lang.String,android.os.Bundle)>
+add <android.content.ContentResolver: android.database.Cursor query(android.net.Uri,java.lang.String[],java.lang.String,java.lang.String[],java.lang.String)>
+add <android.content.Context: void sendBroadcast(android.content.Intent)>
+add <android.content.ContentResolver: int delete(android.net.Uri,java.lang.String,java.lang.String[])>
+add <android.content.Context: void sendStickyBroadcast(android.content.Intent)>
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Callback analysis done.
+Warning: RelativeLayout is a phantom class!
+Warning: org.cert.sendsms.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: TextView is a phantom class!
+Warning: org.cert.sendsms.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Warning: Button is a phantom class!
+Warning: org.cert.sendsms.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found 1 layout controls in file res/layout/activity_main.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+Found 4 callback methods for 1 components
+Found {res/layout/activity_main.xml=[2131230720 - android.widget.Button, -1 - android.widget.RelativeLayout, -1 - android.widget.TextView]} layout controls
+Entry point calculation done.
+Created a SourceSinkManager with 43 sources, 90 sinks, and 4 callback methods.
+Running data flow analysis...
+Running data flow analysis on /Users/timospring/Desktop/droid-Security-Thesis/benchmarking/../apk_sample/validation_apk/SendSMS.apk with 43 sources and 90 sinks...
+Starting infoflow computation...
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+In step Beginning, The number of Jimple line is 42077
+In step Beginning, The number of Jimple method is 14328
+In step Beginning, The number of Jimple class is 1023
+In step Beginning, The number of Jimple component is 5
+
+Application classes:
+org.cert.sendsms.MainActivity
+java.time.Instant
+java.time.temporal.Temporal
+java.time.temporal.TemporalAdjuster
+java.time.Clock
+java.time.temporal.TemporalAccessor
+java.time.temporal.TemporalField
+java.time.temporal.TemporalUnit
+java.time.temporal.ValueRange
+java.time.temporal.TemporalAmount
+java.time.temporal.TemporalQuery
+java.time.OffsetDateTime
+java.time.ZoneOffset
+java.time.ZonedDateTime
+java.time.ZoneId
+java.time.Duration
+java.time.format.ResolverStyle
+java.time.LocalDate
+java.time.LocalTime
+java.time.LocalDateTime
+java.time.format.DateTimeFormatter
+java.time.Month
+java.time.DayOfWeek
+java.time.OffsetTime
+java.time.zone.ZoneRules
+java.time.chrono.ChronoZonedDateTime
+java.time.chrono.ChronoLocalDateTime
+java.time.chrono.ChronoLocalDate
+java.time.format.TextStyle
+java.time.chrono.IsoChronology
+java.time.chrono.Era
+java.time.Period
+java.time.chrono.ChronoPeriod
+java.time.chrono.Chronology
+java.time.format.FormatStyle
+java.time.format.DecimalStyle
+java.time.zone.ZoneOffsetTransition
+java.time.chrono.AbstractChronology
+java.time.chrono.IsoEra
+java.time.temporal.ChronoField
+android.transition.Transition
+android.transition.TransitionValues
+android.transition.Transition$TransitionListener
+android.transition.Transition$EpicenterCallback
+android.transition.PathMotion
+android.transition.TransitionPropagation
+android.transition.TransitionManager
+android.transition.Scene
+android.telecom.PhoneAccountHandle
+org.cert.sendsms.BuildConfig
+org.cert.sendsms.Button1Listener
+org.cert.sendsms.R$attr
+org.cert.sendsms.R
+org.cert.sendsms.R$dimen
+org.cert.sendsms.R$drawable
+org.cert.sendsms.R$id
+org.cert.sendsms.R$layout
+org.cert.sendsms.R$menu
+org.cert.sendsms.R$string
+org.cert.sendsms.R$style
+dummyMainClass
+SharedPreferencesHelper
+select distinct d.method, d.instruction, d.exit_kind, f.class from Applications a, Classes b, Components c, ExitPoints d, Applications e, Classes f, Components g, ProviderLinks h where a.id=b.app_id and b.id=c.class_id and b.id=d.class_id and e.id=f.app_id and f.id=g.class_id and c.id=h.src_component_id and g.id=h.dest_component_id and d.exit_kind='p' and a.app in (?) and e.app in (?);
+In step Ending, The number of Jimple line is 42077
+In step Ending, The number of Jimple method is 14329
+In step Ending, The number of Jimple class is 1024
+In step Ending, The number of Jimple component is 5
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Found a flow to sink virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null) on line 52, from the following sources:
+	- $r1 := @parameter2: android.content.Intent (in <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+		on Path [$r1 := @parameter2: android.content.Intent, $r2 = virtualinvoke $r1.<android.content.Intent: android.os.Bundle getExtras()>(), $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("secret"), virtualinvoke $r0.<org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>($r3), virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null)]
+Found a flow to sink virtualinvoke $r3.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0) on line 26, from the following sources:
+	- $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+		on Path [$r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("secret", $r6), virtualinvoke $r3.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0)]
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SendSMS: ", $r6) on line 25, from the following sources:
+	- $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+		on Path [$r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), $r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r6), $r6 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>(), staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SendSMS: ", $r6)]
+Found a flow to sink virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null) on line 52, from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("secret") (in <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+		on Path [$r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("secret"), virtualinvoke $r0.<org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>($r3), virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null)]
+	- $r1 := @parameter2: android.content.Intent (in <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+		on Path [$r1 := @parameter2: android.content.Intent, $r2 = virtualinvoke $r1.<android.content.Intent: android.os.Bundle getExtras()>(), $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("secret"), virtualinvoke $r0.<org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>($r3), virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null)]
+	- $r3 = staticinvoke <android.telephony.SmsManager: android.telephony.SmsManager getDefault()>() (in <org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>)
+		on Path [$r3 = staticinvoke <android.telephony.SmsManager: android.telephony.SmsManager getDefault()>(), virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null)]
+	- $r2 = virtualinvoke $r1.<android.content.Intent: android.os.Bundle getExtras()>() (in <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+		on Path [$r2 = virtualinvoke $r1.<android.content.Intent: android.os.Bundle getExtras()>(), $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("secret"), virtualinvoke $r0.<org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>($r3), virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null)]
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("DroidBench", $r3) on line 22, from the following sources:
+	- $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <edu.mit.shared_preferences.MainActivity: void onCreate(android.os.Bundle)>)
+		on Path [$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), $r7 = (java.lang.Object) $r4, <SharedPreferencesHelper: java.lang.Object MyPrefsFile_imei> = $r7, virtualinvoke $r3.<edu.mit.shared_preferences.AnotherActivity: void onCreate(android.os.Bundle)>($r4), $r4 = <SharedPreferencesHelper: java.lang.Object MyPrefsFile_imei>, $r3 = $r4, staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("DroidBench", $r3)]
+	- $r2 = virtualinvoke $r0.<edu.mit.shared_preferences.MainActivity: java.lang.Object getSystemService(java.lang.String)>("phone") (in <edu.mit.shared_preferences.MainActivity: void onCreate(android.os.Bundle)>)
+		on Path [$r2 = virtualinvoke $r0.<edu.mit.shared_preferences.MainActivity: java.lang.Object getSystemService(java.lang.String)>("phone"), $r3 = (android.telephony.TelephonyManager) $r2, $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), $r7 = (java.lang.Object) $r4, <SharedPreferencesHelper: java.lang.Object MyPrefsFile_imei> = $r7, virtualinvoke $r3.<edu.mit.shared_preferences.AnotherActivity: void onCreate(android.os.Bundle)>($r4), $r4 = <SharedPreferencesHelper: java.lang.Object MyPrefsFile_imei>, $r3 = $r4, staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("DroidBench", $r3)]
+Found a flow to sink virtualinvoke $r3.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0) on line 26, from the following sources:
+	- $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+		on Path [$r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("secret", $r6), virtualinvoke $r3.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0)]
+	- $r4 = virtualinvoke $r3.<org.cert.sendsms.MainActivity: java.lang.Object getSystemService(java.lang.String)>("phone") (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+		on Path [$r4 = virtualinvoke $r3.<org.cert.sendsms.MainActivity: java.lang.Object getSystemService(java.lang.String)>("phone"), $r5 = (android.telephony.TelephonyManager) $r4, $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), virtualinvoke $r2.<android.content.Intent: android.content.Intent putExtra(java.lang.String,java.lang.String)>("secret", $r6), virtualinvoke $r3.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0)]
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SendSMS: ", $r6) on line 25, from the following sources:
+	- $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+		on Path [$r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), $r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r6), $r6 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>(), staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SendSMS: ", $r6)]
+	- $r4 = virtualinvoke $r3.<org.cert.sendsms.MainActivity: java.lang.Object getSystemService(java.lang.String)>("phone") (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+		on Path [$r4 = virtualinvoke $r3.<org.cert.sendsms.MainActivity: java.lang.Object getSystemService(java.lang.String)>("phone"), $r5 = (android.telephony.TelephonyManager) $r4, $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>(), $r7 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r6), $r6 = virtualinvoke $r7.<java.lang.StringBuilder: java.lang.String toString()>(), staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SendSMS: ", $r6)]
+Maximum memory consumption: 462.792304 MB
+Analysis has run for 16.49184161 seconds

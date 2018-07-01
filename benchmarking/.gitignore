@@ -1,0 +1,4 @@
+*.metadata
+*.recommenders
+*.class
+benchmarking/out/production/*

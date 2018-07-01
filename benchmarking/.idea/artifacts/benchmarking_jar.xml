@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="benchmarking:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/benchmarking_jar</output-path>
+    <root id="archive" name="benchmarking.jar">
+      <element id="module-output" name="benchmarking" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-io-2.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jexample-4.5-391.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,28 @@
+Running data flow analysis...
+Found dex file 'classes.dex' with 456 classes in '/Users/timospring/Desktop/droid-Security-Thesis/apk_sample/validation_apk/SendSMS.apk'
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.1 seconds.
+[Spark] Solution found in 0.1 seconds.
+Callback analysis done.
+Found 1 layout controls in file res/layout/activity_main.xml
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+Created a SourceSinkManager with 46 sources, 122 sinks, and 4 callback methods.
+Found a flow to sink virtualinvoke $r3.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>($r2, 0), from the following sources:
+	- $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+Found a flow to sink staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("SendSMS: ", $r6), from the following sources:
+	- $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() (in <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>)
+Found a flow to sink virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null), from the following sources:
+	- $r3 = virtualinvoke $r2.<android.os.Bundle: java.lang.String getString(java.lang.String)>("secret") (in <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>)
+	- $r3 = staticinvoke <android.telephony.SmsManager: android.telephony.SmsManager getDefault()>() (in <org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>)
+Maximum memory consumption: 84.70512 MB
+Analysis has run for 6.575720653 seconds

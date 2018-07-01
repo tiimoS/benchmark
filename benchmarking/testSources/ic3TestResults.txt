@@ -1,0 +1,286 @@
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] INFO  soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator  - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        org.cert.sendsms.MainActivity $r0;
+        android.os.Bundle $r1;
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label3;
+
+        $r0 = new org.cert.sendsms.MainActivity;
+
+        specialinvoke $r0.<org.cert.sendsms.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label3;
+
+        $r1 = new android.os.Bundle;
+
+        specialinvoke $r1.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r0.<org.cert.sendsms.MainActivity: void onCreate(android.os.Bundle)>($r1);
+
+        $r1 = null;
+
+     label2:
+        if $i0 == 3 goto label3;
+
+        if $i0 == 4 goto label2;
+
+     label3:
+        if $i0 == 6 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Callback analysis done.
+Warning: RelativeLayout is a phantom class!
+Warning: org.cert.sendsms.RelativeLayout is a phantom class!
+Warning: android.view.RelativeLayout is a phantom class!
+Warning: TextView is a phantom class!
+Warning: org.cert.sendsms.TextView is a phantom class!
+Warning: android.view.TextView is a phantom class!
+Warning: Button is a phantom class!
+Warning: org.cert.sendsms.Button is a phantom class!
+Warning: android.view.Button is a phantom class!
+Found 1 layout controls in file res/layout/activity_main.xml
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+[main] WARN  soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator  - Cannot create valid constructor for android.view.Menu, because it is an interface and cannot substitute with subclass
+[main] INFO  soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator  - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        org.cert.sendsms.MainActivity $r0;
+        android.os.Bundle $r1;
+        boolean $z0;
+        android.content.Intent $r2;
+        org.cert.sendsms.Button1Listener $r3;
+        android.view.View $r4;
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label9;
+
+        $r0 = new org.cert.sendsms.MainActivity;
+
+        specialinvoke $r0.<org.cert.sendsms.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label9;
+
+        $r1 = new android.os.Bundle;
+
+        specialinvoke $r1.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r0.<org.cert.sendsms.MainActivity: void onCreate(android.os.Bundle)>($r1);
+
+        $r1 = null;
+
+     label2:
+        if $i0 == 2 goto label8;
+
+     label3:
+        if $i0 == 3 goto label4;
+
+        virtualinvoke $r0.<android.app.Activity: void setContentView(int)>(0);
+
+     label4:
+        if $i0 == 4 goto label5;
+
+        $z0 = virtualinvoke $r0.<org.cert.sendsms.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label5:
+        if $i0 == 5 goto label6;
+
+        $r2 = new android.content.Intent;
+
+        specialinvoke $r2.<android.content.Intent: void <init>()>();
+
+        virtualinvoke $r0.<org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, $r2);
+
+        $r2 = null;
+
+     label6:
+        $r3 = new org.cert.sendsms.Button1Listener;
+
+        specialinvoke $r3.<org.cert.sendsms.Button1Listener: void <init>(org.cert.sendsms.MainActivity)>($r0);
+
+        if $i0 == 6 goto label7;
+
+        $r4 = new android.view.View;
+
+        specialinvoke $r4.<android.view.View: void <init>(android.content.Context)>($r0);
+
+        virtualinvoke $r3.<org.cert.sendsms.Button1Listener: void onClick(android.view.View)>($r4);
+
+        $r4 = null;
+
+     label7:
+        if $i0 == 7 goto label3;
+
+     label8:
+        if $i0 == 8 goto label2;
+
+        if $i0 == 9 goto label9;
+
+        if $i0 == 10 goto label2;
+
+     label9:
+        if $i0 == 12 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+Running incremental callback analysis for 1 components...
+Incremental callback analysis done.
+[main] INFO  edu.psu.cse.siis.ic3.SetupApplication  - Entry point calculation done.
+[main] WARN  soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator  - Cannot create valid constructor for android.view.Menu, because it is an interface and cannot substitute with subclass
+[main] INFO  soot.jimple.infoflow.entryPointCreators.AndroidEntryPointCreator  - Generated main method:
+    public static void dummyMainMethod()
+    {
+        int $i0;
+        org.cert.sendsms.MainActivity $r0;
+        android.os.Bundle $r1;
+        org.cert.sendsms.Button1Listener $r2;
+        android.view.View $r3;
+        android.content.Intent $r4;
+        boolean $z0;
+
+        $i0 = 0;
+
+     label1:
+        if $i0 == 0 goto label9;
+
+        $r0 = new org.cert.sendsms.MainActivity;
+
+        specialinvoke $r0.<org.cert.sendsms.MainActivity: void <init>()>();
+
+        if $i0 == 1 goto label9;
+
+        $r1 = new android.os.Bundle;
+
+        specialinvoke $r1.<android.os.Bundle: void <init>()>();
+
+        virtualinvoke $r0.<org.cert.sendsms.MainActivity: void onCreate(android.os.Bundle)>($r1);
+
+        $r1 = null;
+
+     label2:
+        if $i0 == 2 goto label8;
+
+     label3:
+        $r2 = new org.cert.sendsms.Button1Listener;
+
+        specialinvoke $r2.<org.cert.sendsms.Button1Listener: void <init>(org.cert.sendsms.MainActivity)>($r0);
+
+        if $i0 == 3 goto label4;
+
+        $r3 = new android.view.View;
+
+        specialinvoke $r3.<android.view.View: void <init>(android.content.Context)>($r0);
+
+        virtualinvoke $r2.<org.cert.sendsms.Button1Listener: void onClick(android.view.View)>($r3);
+
+        $r3 = null;
+
+     label4:
+        if $i0 == 4 goto label5;
+
+        $r4 = new android.content.Intent;
+
+        specialinvoke $r4.<android.content.Intent: void <init>()>();
+
+        virtualinvoke $r0.<org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>(0, 0, $r4);
+
+        $r4 = null;
+
+     label5:
+        if $i0 == 5 goto label6;
+
+        virtualinvoke $r0.<android.app.Activity: void setContentView(int)>(0);
+
+     label6:
+        if $i0 == 6 goto label7;
+
+        $z0 = virtualinvoke $r0.<org.cert.sendsms.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>(null);
+
+     label7:
+        if $i0 == 7 goto label3;
+
+     label8:
+        if $i0 == 8 goto label2;
+
+        if $i0 == 9 goto label9;
+
+        if $i0 == 10 goto label2;
+
+     label9:
+        if $i0 == 12 goto label1;
+
+        return;
+    }
+
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+[main] INFO  edu.psu.cse.siis.coal.PropagationSceneTransformer  - Solving propagation problem (iteration 0)
+[main] INFO  edu.psu.cse.siis.coal.PropagationSceneTransformer  - Reached a fixed point
+Transforming android.content.Intent... 
+Transforming android.content.IntentFilter... 
+Transforming android.os.Bundle... 
+Transforming android.content.ComponentName... 
+Transforming android.app.Activity... 
+Transforming dummyMainClass... 
+Transforming org.cert.sendsms.MainActivity... 
+
+*****Manifest*****
+Manifest file for org.cert.sendsms version 1
+  Activities:
+    org.cert.sendsms.MainActivity
+      Intent filter:
+        Actions: [android.intent.action.MAIN]
+        Categories: [android.intent.category.LAUNCHER]
+
+  Activity Aliases:
+  Services:
+  Receivers:
+  Providers:
+
+*****Result*****
+org.cert.sendsms.Button1Listener/void onClick(android.view.View) : virtualinvoke r18.<org.cert.sendsms.MainActivity: void startActivityForResult(android.content.Intent,int)>(r2, b1)
+Components: [org.cert.sendsms.MainActivity]
+    0 : Value: 1 path values
+  action=android.intent.action.SEND, appendedPaths=null, appendedQueries=null, authority=null, dataType=text/plain, extras=[secret], fragment=null, path=null, scheme=null, ssp=null, uri=null, uriQuery=null, 
+
+
+org.cert.sendsms.MainActivity/void onActivityResult(int,int,android.content.Intent) : r10 = virtualinvoke r8.<android.os.Bundle: java.lang.String getString(java.lang.String)>(r9)
+Components: [org.cert.sendsms.MainActivity]
+    0 : [secret]
+
+org.cert.sendsms.MainActivity/void onActivityResult(int,int,android.content.Intent) : r5 = virtualinvoke r3.<android.os.Bundle: java.lang.String getString(java.lang.String)>(r4)
+Components: [org.cert.sendsms.MainActivity]
+    0 : [secret]
+
+PATH: /Users/timospring/Desktop/droid-Security-Thesis/tools/ic3/ic3output/org.cert.sendsms_1.txt
+[main] INFO  edu.psu.cse.siis.ic3.ProtobufResultProcessor  - org.cert.sendsms 461 31 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 397 3311 63 1224 20 203 0 340 533 490 6477
+
