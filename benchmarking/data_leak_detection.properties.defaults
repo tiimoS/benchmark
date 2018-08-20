@@ -1,0 +1,26 @@
+# Directory where all temporary data and results are stored.
+workdir=
+
+# Covert
+covert.enabled=false
+covert.tool_directory=
+covert.executable=
+
+# Flowdroid
+flowdroid.enabled=false
+
+# Horndroid
+horndroid.enabled=false
+
+# Ic3
+ic3.enabled=false
+ic3.tool_directory=
+ic3.executable=
+ic3.helper_dare.tool_directory=
+ic3.helper_dare.executable=
+
+# IccTA
+iccta.enabled=false
+
+# General
+android_sdk=
